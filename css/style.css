@@ -1,166 +1,204 @@
-body{
+body {
   /*background: #667eea;/*delet*/
   font-family: 'Varela Round', sans-serif;
   text-align: center;
-  background-color:#fff;
+  background-color: #fff;
 }
 
-h2{
+h2 {
   font-size: 1rem;
-font-weight:bold;}
+  font-weight: bold;
+}
 
-h3{font-size: 0.8rem;}
+h3 {
+  font-size: 0.8rem;
+}
 
 /*div{border-color: red; border-width: 1px; border-style: solid;}/*delet*/
-
-p{
+p {
   font-size: 1.3rem;
 }
 
-i{color:white;}
-i:hover{color:#999;}
+i {
+  color: white;
+}
 
-a{color:white}
+i:hover {
+  color: #999;
+}
 
-hr{
-  border-width: 1px; border-style: solid; margin:0 5%
+a {
+  color: white
+}
+
+hr {
+  border-width: 1px;
+  border-style: solid;
+  margin: 0 5%
 }
 
 /*szoro kepformazas*/
-.avatar{
-   border-radius: 50%;
+.avatar {
+  border-radius: 50%;
   height: 100px;
   width: 100px;
 }
-.ikon{
+
+.ikon {
   height: 80px;
   width: 80px;
 }
+
 /**header**/
+.video {
+  border-radius: 0 0 40% 40%;
+}
 
-   .video{
-    border-radius:0 0 40% 40%;
+.navbar {
+  padding: 0% 10%
+}
+
+.nav-item {
+  margin: 0px 20px
+}
+
+.btn-warning {
+  background-color: #b85c37;
+  border-radius: 12px;
+}
+
+.navbar {
+  position: relative;
+}
+
+#headtext {
+  color: white;
+  /*helye*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0);
+}
+
+@media (max-width:1250px) and (min-width:991px) {
+  #headtext {
+    top: 20%;
   }
-  .navbar{padding:0% 10%}
 
-  .nav-item{margin:0px 20px}
+}
 
-  .btn-warning{
-    background-color: #b85c37;
-    border-radius: 12px;
+
+@media (max-width: 990px) {
+  #headtext {
+    top: 10%;
   }
+  h1{font-size: 1.5rem}
+  p{font-size: 0.3rem}
+}
 
-   .navbar{position: relative;}
-
-
-  #headtext{
-    color:white;
-    /*helye*/
-    position: absolute;
-    left: 50%;
-    top:50%;
-    transform: translate(-50%, 0);
+@media (max-width: 520px) {
+  #headtext {
+    top: 5%;
   }
-  @media (max-width:1200px) and (min-width:991px){
-    #headtext{
-      position: absolute;
-      left: 50%;
-      top:50%;
-      transform: translate(-50%, -110%);
-    }}
-    @media (max-width: 990px) {
-      #headtext{
-        position: absolute;
-        left: 50%;
-        top:50%;
-        transform: translate(-50%, -150%);
-      }}
-
-
-
-  .shadow{
-    text-shadow: 2px 2px #000;
-    font-size: 3rem;
-  }
-  /*video helye*/
-   .video{
-    position: relative;
-    top: -100px;
-    z-index:-1}
-
-  /*gomb*/
-  .trydemo{background-color: #b85c37;
-  color:white;}
-/**header**/
-
-
-/**features**/
-#features{
-  background-color:#fff;
-  font-weight:bold;
+  h1{font-size: 0.5rem}
+  p{font-size: 0.1rem}
 }
+;
 
-#features h1{
-  font-family: 'Noto Serif', serif;
-}
-
-.pfeatures{
-  padding:0 25%;
-  color:#888;
-}
-.tartalomfeat{padding:5%;}
-
-.txtfeatures{color:#ab6042;}
-
-.normalp{
-  padding:0 10%;
-  color:#aaa;
-  font-size: 1rem;
-}
-/**features**/
-
-
-/**products**/
-#products{
-  background-color: #e0c097;
-  color:#6c3d35;
-}
-
-.nomarg{margin-left: 0px;
-margin-right:0px;}
-
-  .m16{
-    padding-top:40%;
-    background-image: url(https://www.artsydee.com/wp-content/uploads/2021/06/featured-image-watercolor-galaxy.jpg);
-    border-radius: 0 50%  50% 0;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-
-.kozep{
-  padding-left: 50%;
-}
-.rightxt{
-  margin: auto;
-}
-.righttime{
+.shadow {
+  text-shadow: 2px 2px #000;
   font-size: 3rem;
 }
 
-.kepRow{
+/*video helye*/
+.video {
+  position: relative;
+  top: -100px;
+  z-index: -1
+}
+
+/*gomb*/
+.trydemo {
+  background-color: #b85c37;
+  color: white;
+}
+
+/**header**/
+/**features**/
+#features {
+  background-color: #fff;
+  font-weight: bold;
+}
+
+#features h1 {
+  font-family: 'Noto Serif', serif;
+}
+
+.pfeatures {
+  padding: 0 25%;
+  color: #888;
+}
+
+.tartalomfeat {
+  padding: 5%;
+}
+
+.txtfeatures {
+  color: #ab6042;
+}
+
+.normalp {
+  padding: 0 10%;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+/**features**/
+/**products**/
+#products {
+  background-color: #e0c097;
+  color: #6c3d35;
+}
+
+.nomarg {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.m16 {
+  padding-top: 40%;
+  background-image: url(https://www.artsydee.com/wp-content/uploads/2021/06/featured-image-watercolor-galaxy.jpg);
+  border-radius: 0 50% 50% 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kozep {
+  padding-left: 50%;
+}
+
+.rightxt {
+  margin: auto;
+}
+
+.righttime {
+  font-size: 3rem;
+}
+
+.kepRow {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 5rem;
 }
-/**products**/
 
+/**products**/
 /**testionial**/
-#testionialkor{
-  background-color:#fff;
-  border-radius:0 0 40% 40%;
+#testionialkor {
+  background-color: #fff;
+  border-radius: 0 0 40% 40%;
   position: relative;
   z-index: 1;
 }
@@ -168,60 +206,62 @@ margin-right:0px;}
 #testionial {
   position: relative;
   z-index: -1;
-  background-color:#2d2523;
+  background-color: #2d2523;
 }
+
 /**testionial**/
-
-
 /**contact**/
-#contact{
-/*  position: relative;
+#contact {
+  /*  position: relative;
   top:-50px;
   z-index: +1;*/
-  background-color:#2d2523;
+  background-color: #2d2523;
   color: white;
   margin: 0%;
-  }
-#contact h2{
-    font-size: 1.4rem;
-  }
-#contact p{
+}
+
+#contact h2 {
+  font-size: 1.4rem;
+}
+
+#contact p {
   font-size: 1rem;
 }
 
-  .contactRendezes{
-    padding:5%;
-  }
-  .contacth{
-    text-align: left;
-    /*hello*/
-    grid-template-rows: auto;
-  }
+.contactRendezes {
+  padding: 5%;
+}
+
+.contacth {
+  text-align: left;
+  /*hello*/
+  grid-template-rows: auto;
+}
 
 /**contact**/
-
-
 /**footer**/
-#footer{
+#footer {
   padding-top: 1rem;
-  background-color:#2d2523;
+  background-color: #2d2523;
   height: 5rem;
-  color:white;
+  color: white;
 }
 
-#copyright{
+#copyright {
   position: absolute;
-  bottom:auto;
-  left:5%;
+  bottom: auto;
+  left: 5%;
 }
-#social{
+
+#social {
   position: absolute;
-  bottom:auto;
-  right:5%;
-}}
+  bottom: auto;
+  right: 5%;
+}
+}
+
 .sicon {
   margin: 20px 10px;
 }
-
 
 /**footer**/
